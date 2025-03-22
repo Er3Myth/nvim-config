@@ -1,0 +1,11 @@
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+Session.vim
+*.un~
+*.diff
+tags
+.DS_Store
+__MACOSX/
