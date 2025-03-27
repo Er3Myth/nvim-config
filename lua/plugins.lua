@@ -14,4 +14,20 @@ return {
     dependencies = { { "echasnovski/mini.icons", opts = {} } },
     lazy = false,
   },
+  {
+    "nmac427/guess-indent.nvim"
+  },
+  {
+    "nvim-treesitter/nvim-treesitter", 
+  },
+  {
+    "nvim-treesitter/nvim-treesitter-textobjects",
+    dependencies = {
+      "nvim-treesitter/nvim-treesitter"
+    }
+  },
+  {
+    "folke/which-key.nvim"
+  },
+
 }
